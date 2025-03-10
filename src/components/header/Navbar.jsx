@@ -8,10 +8,10 @@ const Navbar = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/">Donation Campaigns</NavLink>
+        <NavLink to="/all-donation-campaigns">Donation Campaigns</NavLink>
       </li>
       <li>
-        <NavLink to="/">Dashboard</NavLink>
+        <NavLink to="/dashboard">Dashboard</NavLink>
       </li>
     </>
   );
@@ -52,10 +52,10 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end space-x-5">
-          <Link className="btn btn-info" to="">
+          <Link className="btn btn-info" to="/login">
             Login
           </Link>
-          <Link className="btn btn-info" to="">
+          <Link className="btn btn-info" to="/register">
             Register
           </Link>
         </div>
